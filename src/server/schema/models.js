@@ -37,4 +37,5 @@ const TodoSchema = new Schema({
    */
   completed: Boolean
 });
+
 export const Todo = mongoose.model('Todo', TodoSchema);
